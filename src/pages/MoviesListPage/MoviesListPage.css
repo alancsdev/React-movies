@@ -1,0 +1,10 @@
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movies-list > * {
+  min-height: 33vh;
+  flex-basis: 33.3%;
+}

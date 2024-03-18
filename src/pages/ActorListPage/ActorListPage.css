@@ -1,0 +1,26 @@
+.actors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.actor-card {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.actor-card h2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 1.5em 0;
+}
+
+.actor-card h2 a {
+  color: white;
+}
